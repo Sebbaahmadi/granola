@@ -1,0 +1,18 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link href="{% static 'page/CSS/css.css' %}" rel="stylesheet">  
+
+<h1 style="text-align: center;
+color: rgb(12, 91, 91);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+">Reload Bites</h1>
+
+<h3 > <a id="type" class="typewrite" data-period="1000" data-type='[ "Healthy & Vegan Delicious Granola" ]'>    <span class="wrap"></span>  </a></h3>
+
+ <img height= 800, width=1300 src="{% static 'page/images/reload.jpeg'%}" alt="home" />
+ <script src="{% static 'page/JavaScript/java.js' %}"></script>
+{% endblock %}
